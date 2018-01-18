@@ -1,1 +1,114 @@
+.bienvenidos {
+  background: #dec7a9;
+  background-size: 20px;
+  height: 100vh;
+  overflow: hidden;  
+}
 
+.html{
+    font-size: 15px;
+}
+
+.navbar-fixed-top {
+    background: #00000070;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: white; }
+
+.navbar-toggler {
+  font-size: 1.6rem;
+  color: #fff !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-align: center;
+  padding: .7rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .active > .nav-link:focus, .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover {
+  color: white;
+  background: #b64b0c;   }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  background: #b64b0c; }
+
+#menuprincipal {
+  clear: both; }
+
+.texto-bienvenido {
+  color: #fff;
+  margin-top: 9rem; 
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #b93e24;
+  -webkit-transition: all .5s ease;
+          transition: all .5s ease;
+  text-transform: uppercase; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fd7355;
+  border-color: #F05F40; }
+
+/*Estilos bloque Quienes somos*/
+.quienes-somos {
+  background: #F05F40;
+  color: #fff; }
+
+/*Estilos bloque Servicios*/
+.servicios .fa {
+  color: #F05F40;
+  font-size: 6rem; }
+
+.servicios h3 {
+  font-weight: bold; }
+
+/*Estilos Ultimos proyectos*/
+.ultimos-proyectos {
+  background: #424141;
+  color: #fff; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.ultimos-proyectos img {
+  -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+  min-width: 100%; }
+
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5); }
+
+/**Estilos bloque Pie de pagina*/
+.footer {
+  color: #fff;
+  background: #222222; }
+
+/*EMPIEZAN LOS MEDIAS QUERIES*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  #menuprincipal {
+    clear: inherit; }
+  
+
+
+}
+
+
+/*# sourceMappingURL=estilos.css.map */
